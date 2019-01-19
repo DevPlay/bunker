@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
 /** Estilos base **/
 html {
   font-size: 1em;
@@ -153,3 +154,30 @@ textarea {
 }
 
 /** Fin de estilos navbar **/
+/** Estilos de la portada principal **/
+.carousel-inner {
+  height: 95vh;
+}
+
+/** Fin de estilos de la portada principal **/
+/** Estilos del footer **/
+footer {
+  border-top: 2px;
+  border-color: black;
+  margin-bottom: 40px;
+}
+
+footer .designedBy p {
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: "Comfortaa", cursive;
+}
+
+footer img {
+  width: 100px;
+}
+
+/** Fin de estilos del footer **/
